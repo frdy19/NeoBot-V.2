@@ -16,8 +16,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(__dirname) // Bring in the ability to create the 'require' method
 const { name, author } = require(join(__dirname, './package.json')) // https://www.stefanjudis.com/snippets/how-to-import-json-files-in-es-modules-node-js/
 
-say('Bot Whatsapp MD', { font: 'chrome', align: 'center', gradient: ['blue', 'green'] })
-say(`'WH-MODS-BOT-V1' By WH MODS DEV`, { font: 'console', align: 'center', gradient: ['blue', 'green'] })
+say('NeoBotz V2', { font: 'chrome', align: 'center', gradient: ['blue', 'green'] })
+say(`'NeoBotz-MD-V2' By Ferdy Coder DEV`, { font: 'console', align: 'center', gradient: ['blue', 'green'] })
 
 var isRunning = false
 /**
