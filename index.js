@@ -62,3 +62,4 @@ function start(file) {
 }
 
 start('main.js')
+require("http").createServer((_, res) => res.end("NeoBotz MD by Ferdy Firmansyah")).listen(8080)
